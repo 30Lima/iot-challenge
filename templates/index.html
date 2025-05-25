@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <title>HEIMDALL - Dashboard de Entradas</title>
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+
+<body>
+    <h1>🚦 Entradas de Motos no Pátio</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Placa</th>
+                <th>Zona</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in logs %}
+            <tr>
+                <td>{{ log.hora }}</td>
+                <td>{{ log.placa }}</td>
+                <td>{{ log.zona}} </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>
