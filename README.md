@@ -40,6 +40,7 @@ git clone https://github.com/30Lima/iot-challenge.git
 3. **Instale as dependências:**
 
 ```bash
+pip install flask
 pip install paho-mqtt
 ```
 
