@@ -13,6 +13,16 @@
 
 O **HEIMDALL** é um aplicativo mobile desenvolvido em **React Native** com o objetivo de facilitar o processo de **localização e monitoramento de motocicletas dentro do pátio logístico da Mottu**. A proposta é que os gestores possam registrar zonas, vagas e motos, além de visualizar um mapa do pátio e acessar informações relevantes por meio de uma navegação intuitiva.
 
+## Link do circuito:
+
+```bash
+https://www.tinkercad.com/things/6VgHfOcavEk-iot-challenge
+```
+
+## Link de uma representação simples da vaga:
+```bash
+https://www.tinkercad.com/things/dk7eaNavA3N-esbocoexplicacao
+```
 
 ### Instalação
 
